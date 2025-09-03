@@ -1,0 +1,6 @@
+jupyterlab
+jupyterlab-deck
+numpy
+pandas
+matplotlib
+scikit-learn
