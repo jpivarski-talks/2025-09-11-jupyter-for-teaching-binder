@@ -16,6 +16,8 @@ As a teacher, you need to set up a public repository like this one. Students jus
 
 The only configuration you need is a [requirements.txt](https://github.com/jpivarski-talks/2025-09-11-jupyter-for-teaching-binder/blob/main/requirements.txt) file to pip-install the necessary packages (including `jupyterlab` itself). If you want to install with conda instead of pip, add an [environment.yml]() instead of the `requirements.txt`. You can do additional configuration, such as adding Linux packages with `apt get`, by adding commands to a `.binder/postBuild` file, but this isn't necessary. ([See these instructions](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html) if you're interested.) The example in this repository is the _simplest_ case.
 
+When setting up your own GitHub repository, you do not need to turn on GitHub Pages or add any GitHub Actions in "Settings", as you need to with JupyterLite. All you need is a plain repository with the right files in it.
+
 ### Step 1
 
 Once you have a GitHub repository, go to [mybinder.org](https://mybinder.org/) and fill in the fields. Put the URL to your GitHub repository in the first field and (optionally) a notebook to auto-open in the "File to open" field.
